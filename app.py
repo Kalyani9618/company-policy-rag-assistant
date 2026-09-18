@@ -31,9 +31,11 @@ st.write(
 # GROQ API KEY
 # ============================================================
 
-# PASTE YOUR GROQ API KEY HERE
+# PASTE YOUR NEW GROQ API KEY HERE
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
 GROQ_MODEL = "openai/gpt-oss-20b"
+
 
 if "PASTE_YOUR_API_KEY" in GROQ_API_KEY:
 
